@@ -13,7 +13,10 @@ Route::get('/inicio/:flag', function($flag){
     return array("flag"=>$flag);
 });
 
-Route::get("/Home", [HomeController::class,"index"]);
+Route::get("/inicio", [HomeController::class,"inicio"]);
+Route::get("/lenguaje", [HomeController::class,"lenguaje"]);
+Route::get("/contacto", [HomeController::class,"contacto"]);
+
 
 
 Route::dispatch();
