@@ -30,9 +30,21 @@
   </div>
 </nav>
 
-<div class="container-sm shadow">
-    <h1 class="text-center">Inicio</h1>
-    
+<div class="container-sm shadow text-center my-3 p-2">
+    <h1 class="text-center">Quien soy yo?</h1>
+    <p>Soy un estudiante de la universidad de nacional de El Salvador que esta cursando la materia de TPI</p>
+  <div class="text-center my-4">
+        <img class="img-fluid rounded-circle" src="https://avatars.githubusercontent.com/u/136136391?s=400&u=dbe0bc2a19261c2a4c32e2822063c226a752b6e3&v=4" alt="">
+  </div>
+  <div style="width: 700px;" class="mx-auto mb-4">
+        <ul class="list-group">
+          <li class="list-group-item"><span class="fw-bold">Nombre:</span> Juan Sandoval</li>
+          <li class="list-group-item"><span class="fw-bold">Edad:</span> 21 años</li>
+          <li class="list-group-item"><span class="fw-bold">Profesión:</span> Estudiante y musico</li>
+          <li class="list-group-item"><span class="fw-bold">Intereses:</span> Programación, Música</li>
+          <li class="list-group-item"><span class="fw-bold">Hobbies:</span> Leer, Viajar, Videojuegos</li>
+    </ul>
+  </div>
     
 
 </div>
